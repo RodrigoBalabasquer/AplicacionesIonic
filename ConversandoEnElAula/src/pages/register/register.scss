@@ -1,0 +1,87 @@
+page-register {
+    .register-content {
+    background: #C10C0C;
+ 
+    .register-row {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+ 
+    .register-box {
+      background: #061964;
+      padding: 20px 20px 0px 20px;
+      margin-top: 25px;
+    }
+ 
+    ion-row {
+       align-items: center;
+       text-align: center;
+     }
+     
+     .alertDanger{
+        .alert-head{
+          background: red;
+        }
+        .alert-button-group
+        {
+        background: red;
+        color: black;
+        .button-inner
+        {
+          color: black;
+        }
+        }
+        .alert-title
+        {
+        color: black
+        }
+        .alert-sub-title
+        {
+        color: black
+        }
+    }
+    .alertInfo{
+        .alert-head{
+          background: blue;
+        }
+        .alert-button-group
+        {
+        background: blue;
+        color: black;
+        .button-inner
+        {
+          color: black;
+        }
+        }
+        .alert-title
+        {
+        color: black
+        }
+        .alert-message
+        {
+          background: blue;
+        color: black
+        }
+    }
+     .signup-col {
+       margin: 0px 16px 0px 16px;
+       padding-bottom: 20px;
+     }
+ 
+     .item-inner {
+       border-bottom-color: #ffffff !important;
+       box-shadow: none !important;
+     }
+ 
+     .submit-btn {
+       background: #51CFB1;
+       border-radius: 30px !important;
+       border: 1px solid #ffffff;
+     }
+ 
+     .register-btn {
+       color: #ffffff;
+       font-size: 0.8em;
+     }
+  }
+}

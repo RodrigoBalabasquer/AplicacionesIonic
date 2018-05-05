@@ -1,0 +1,8 @@
+{
+  "name": "ConversandoEnElAula",
+  "app_id": "8f2c1539",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

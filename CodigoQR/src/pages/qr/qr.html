@@ -1,0 +1,36 @@
+<!--
+  Generated template for the QrPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+</ion-header>
+
+
+<ion-content padding style="background-color: silver"> 
+   <button ion-button class="button-btn" style="background: black" (click)="Volver()" type="button">Salir</button>
+  <ion-row class="qr-row">
+    <ion-col></ion-col>
+  <ion-col width-67>
+      <ion-label style="font-size: 2em;color: black"> Carga de Créditos:</ion-label>
+    </ion-col>
+  <ion-col></ion-col>
+  </ion-row>
+  <ion-col class="signup-col">
+          <a *ngIf="!mostrar" class="btn paper paper-raise-flatten"  icon-left (click)="escaneo()"><ion-icon name="qr-scanner"></ion-icon>Escanear Código</a>
+          <ion-spinner style="margin-left: 3.3cm;margin-top: 1cm" *ngIf="mostrar"></ion-spinner>
+  </ion-col>
+  <div class="row header">
+          <div class="col" style="color: black">Usuarios</div>
+          <div class="col" style="color: black">Creditos</div>
+  </div>
+  <div class="row" *ngFor="let user of listaUsuarios">
+          <div class="col" style="color: black">{{user.nombre}}</div>
+          <div class="col" style="color: black">{{user.creditos}}</div> 
+  </div>
+  <!--<div class="row" *ngFor="let user of listaCodigos">
+          <div class="col">{{codigo}}-{{user.codigo}}</div>
+  </div>-->
+</ion-content>

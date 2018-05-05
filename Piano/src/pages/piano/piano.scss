@@ -1,0 +1,52 @@
+.action-sheets-basic-page{
+    .ion-md-mic{
+      color: black;
+    }   
+    .ion-md-play{
+      color: green;
+    }  
+    .ion-md-musical-notes{
+      color: blue;
+    }  
+    .ion-md-log-out{
+      color: red;
+    }  
+    .ion-md-close-circle{
+      color: silver;
+    }   
+}
+.alertInfo{
+  .alert-wrapper
+  {
+    border-radius: 20px 20px 20px 20px;
+    background: aqua;
+  }
+  
+  .alert-button-group
+  {
+  //background: blue;
+  //border-radius: 50px 50px 50px 50px;
+  //color: black;
+  margin-right: 70px;
+  .button-inner
+  { 
+    font-size: 2em;
+    color: black;
+    font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+  }
+  }
+  .alert-title
+  {
+  font-size: 2em;
+  color: black
+  }
+  .alert-message
+  {
+    font-size: 1.5em;
+    font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+    color: black
+  }
+}
+
+
+  

@@ -1,0 +1,45 @@
+
+page-login {
+ 
+  .login-content {
+    background: aqua;
+ 
+    .logo-row {
+      padding-bottom: 20px;
+    }
+ 
+    
+ 
+    ion-row {
+       align-items: center;
+       text-align: center;
+     }
+     .Label{
+        text-align: center;
+        color: white;
+        font-size: 3.3em;
+     }
+
+     
+    .signup-col {
+       margin: 0px 16px 0px 16px;
+     }
+ 
+     .item-inner {
+       border-bottom-color: #ffffff !important;
+       box-shadow: none !important;
+     }
+ 
+     .submit-btn {
+       background: #51CFB1;
+       border-radius: 30px !important;
+       border: 1px solid #ffffff;
+     }
+ 
+     .register-btn {
+       color: #ffffff;
+       font-size: 0.8em;
+     }
+  }
+}
+

@@ -1,0 +1,22 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title (click)="volver()"><ion-icon name="md-arrow-back"></ion-icon> Álbumes  de fotos</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding style="background-color: black">
+  
+    
+    <!--<ion-label style="color:white;font-size: 3em;height: 10%">Álbum de fotos: </ion-label>-->
+    <div style="height: 100%">
+    <img (click)="vacaciones()" src="assets/vacaciones.jpg" style="height: 32%;width: 100%;">
+    <img (click)="autos()" src="assets/autos.png" style="height: 32%;width: 100%;">
+    <img (click)="mascotas()" src="assets/mascotas.jpg" style="height: 32%;width: 100%;">
+    </div>
+    
+  
+</ion-content>

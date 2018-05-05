@@ -1,0 +1,52 @@
+
+<ion-header>
+
+</ion-header>
+
+<ion-content class="login-content" padding>
+
+   <ion-row>
+    <ion-col></ion-col>
+    <ion-col width-67>
+      <ion-label style="color: whitesmoke">Inscripción para votar:</ion-label>
+    </ion-col>
+    <ion-col></ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col width-67>
+    <img src="assets/imagen/urna.jpg" style="height: 200px;width: 200px;">
+    </ion-col>
+  </ion-row>
+  <div>
+    <form  #registerForm="ngForm">
+      <ion-row>
+        <ion-col>
+          <ion-list inset>
+            
+            <ion-item>
+              <ion-label icon-left><ion-icon  name="ios-person"></ion-icon>Usuario:</ion-label>
+              <ion-input type="text"  [(ngModel)]="usuario" name="usuario"  required></ion-input>
+            </ion-item>
+            <ion-item icon-left>
+              <ion-label><ion-icon  name="md-help"></ion-icon>Contraseña:</ion-label>
+              <ion-input type="password" [(ngModel)]="contrasenia"   name="password"  required></ion-input>
+            </ion-item>
+            
+            
+          </ion-list>
+        </ion-col>
+      </ion-row>
+      
+      <ion-row>
+        <ion-col>
+          <button *ngIf="!mostrar" ion-button full (click)="Login()" type="button">Conectarse</button>
+          <ion-spinner  *ngIf="mostrar"></ion-spinner>
+          <br>
+          <button ion-button color=danger block (click)="Cargar()" type="button">Cargar Usuario</button>
+        </ion-col>
+      </ion-row>
+      
+    </form>
+  </div>
+
+</ion-content>
